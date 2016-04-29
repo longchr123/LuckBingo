@@ -1,0 +1,57 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgroundshap"
+    android:orientation="vertical"
+    tools:context="${relativePackage}.${activityClass}" >
+
+    <RelativeLayout
+        android:id="@+id/rl_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp" >
+
+        <TextView
+            android:layout_marginLeft="20dp"
+            android:layout_alignParentRight="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/main_title"
+            android:textSize="20sp" />
+
+        <Button
+            android:layout_centerVertical="true"
+            android:id="@+id/btn_restart"
+            android:layout_width="44dp"
+            android:layout_height="28dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="20dp"
+            android:background="#6600ff00"
+            android:gravity="center"
+            android:text="重置"
+            android:textSize="10sp" />
+
+        <Button
+            android:id="@+id/btn_award"
+            android:layout_width="44dp"
+            android:layout_height="28dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="90dp"
+            android:background="#6600ff00"
+            android:gravity="center"
+            android:text="领奖"
+            android:textSize="10sp" />
+    </RelativeLayout>
+    
+     <com.shizhefei.view.indicator.ScrollIndicatorView
+        android:id="@+id/drawing_indicator"
+        android:layout_width="match_parent"
+        android:layout_height="45dp" />
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/drawing_viewPager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+    
+</LinearLayout>

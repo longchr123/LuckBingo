@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+     <string-array name="main_math">
+         <item >32</item>
+         <item >52</item>
+         <item >72</item>
+         <item >92</item>
+     </string-array>
+     <string-array name="main_role">
+         <item >抽奖者</item>
+         <item >主持人</item>
+     </string-array>
+     <string-array name="main_num">
+         <item >1</item>
+         <item >2</item>
+         <item >3</item>
+     </string-array>
+     <string-array name="main_mode">
+         <item >翻转</item>
+         <item >旋转</item>
+     </string-array>
+</resources>

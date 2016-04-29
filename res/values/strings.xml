@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">LuckDraw</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="main_title">LuckyBingo</string>
+    <string name="main_math">数值范围:</string>
+    <string name="main_role">活动角色:</string>
+    <string name="main_num">卡片数量:</string>
+    <string name="main_mode">卡片模式:</string>
+
+</resources>
